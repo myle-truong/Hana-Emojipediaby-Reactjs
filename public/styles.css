@@ -41,22 +41,22 @@ h1 span {
 
 .dictionary > .term > dt {
   margin: 1rem;
+  padding-left: 10px;
 }
 
 dt {
-  color: #fff;
+  color: rgb(83, 25, 25);
   line-height: 1;
 }
 
 dt span {
   font-size: 200%;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .img {
   margin: 0 auto 20px;
   display: block;
-  font-size: 400%;
 }
 
 dd {
@@ -73,6 +73,7 @@ dd dt {
 }
 
 dd dl {
+  font-family: fantasy;
   font-size: 90%;
   margin: 1rem auto 0 auto;
   letter-spacing: 0.33px;
