@@ -2,7 +2,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
   line-height: 1.666;
-  background: #c0d2d4;
+  background: #d09bd4;
   color: #555;
 }
 
@@ -17,7 +17,7 @@ h1 {
 
 h1 span {
   padding: 5px 15px;
-  background: #2ec2b0;
+  background: #c22eae;
 }
 
 .dictionary {
@@ -40,11 +40,11 @@ h1 span {
 }
 
 .dictionary > .term > dt {
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 dt {
-  color: #2ec2b0;
+  color: #fff;
   line-height: 1;
 }
 
@@ -53,7 +53,7 @@ dt span {
   font-weight: 900;
 }
 
-.emoji {
+.img {
   margin: 0 auto 20px;
   display: block;
   font-size: 400%;
@@ -69,6 +69,7 @@ dd dt {
   margin-bottom: 0.25rem;
   font-weight: 600;
   font-size: inherit;
+  color: antiquewhite;
 }
 
 dd dl {

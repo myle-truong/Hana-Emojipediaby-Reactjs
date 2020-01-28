@@ -4,8 +4,8 @@ function Entry(props) {
   return (
     <div className="term">
       <dt>
-        <span className="emoji" role="img" aria-label="">
-          {props.emoji}
+        <span className="img" role="img" aria-label={props.name}>
+          <img src={props.image} />
         </span>
         <span>{props.name}</span>
       </dt>

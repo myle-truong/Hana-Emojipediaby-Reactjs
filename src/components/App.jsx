@@ -5,10 +5,10 @@ import emojipedia from '../emojipedia';
 
 function createEntry(EmojiTerm) {
   return (
-    <div>
+    <div className="term">
       <Entry
         key={EmojiTerm.id}
-        emoji={EmojiTerm.emoji}
+        image={EmojiTerm.src}
         name={EmojiTerm.name}
         description={EmojiTerm.meaning}
       />
@@ -16,7 +16,7 @@ function createEntry(EmojiTerm) {
   );
 }
 
-function App(params) {
+function App() {
   return (
     <div>
       <h1>
