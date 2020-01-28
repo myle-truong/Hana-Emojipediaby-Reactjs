@@ -1,7 +1,6 @@
 const emojipedia = [
   {
     id: 1,
-
     src: '../img/1.jpg',
     name: 'Heart-Eyes',
     meaning:
